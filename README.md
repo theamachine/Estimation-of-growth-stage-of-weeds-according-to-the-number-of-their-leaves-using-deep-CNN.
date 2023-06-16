@@ -42,26 +42,14 @@ When your classifier is working:
 
 ## Part 1b. Transfer Learning - Regression Reformulation
 
-### Step 1
-Repeat the steps of Part 1a. but reformulate as a regression problem, i.e., your network needs to output a single float value ranging between 0 to 6 corresponding to the number of leaves. Again, you are not expected to fine-tune the initial VGG layers.
-
-- Plot a loss curve for training and validation data
-- Plot an accuracy curve for training and validation data
-- Provide confusion matrix of your network on the training including validation and testing data sets.
-
-### Step 2
-The size of the training data is quite small. Discuss based on your learning curves if overfitting is occurring with the models from Parts 1a and 1b.  
+  
 ## Part 2. Improve your Model
 
 Regularization and data augmentation are common strategies to deal with small datasets.
 
 ### Step 1
-Incorporate Batch Normalization and Dropout into your design the superior network trained in Part 1. You are not expected to fine-tune the initial VGG layers. Again you will provide the following:
-- A loss curve for training and validation data
-- An accuracy curve for training and validation data
-- A confusion matrix of your network on the training including validation and testing data sets.
+Incorporate Batch Normalization and Dropout into your design the superior network trained in Part 1. You are not expected to fine-tune the initial VGG layers. 
  
-
 ### Step 2
 Train the same model from Step 1, now using data augmentation. Again, please provide the same output metrics as in Step 1.
 
